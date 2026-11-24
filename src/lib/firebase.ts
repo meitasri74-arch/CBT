@@ -1,15 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, get, set, child } from "firebase/database";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAW1EgAmD77jKAiQQC4ywBiCsyo8qi432Y",
-  authDomain: "cebete-f7219.firebaseapp.com",
-  databaseURL: "https://cebete-f7219-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "cebete-f7219",
-  storageBucket: "cebete-f7219.firebasestorage.app",
-  messagingSenderId: "610541161818",
-  appId: "1:610541161818:web:b87362c8abacd10358b763",
-  measurementId: "G-Q1E8VNGVCN"
+  apiKey: "AIzaSyDwfH7WWcOM3h_pKRLwr4xKY_GV_jFFX4k",
+  authDomain: "procedure-a5193.firebaseapp.com",
+  projectId: "procedure-a5193",
+  storageBucket: "procedure-a5193.firebasestorage.app",
+  messagingSenderId: "808813031477",
+  appId: "1:808813031477:web:e9f71c6755c5fd673ec17c",
+  measurementId: "G-L0V57E8WVZ"
 };
 const app = initializeApp(firebaseConfig);
 export const db = getDatabase(app);
